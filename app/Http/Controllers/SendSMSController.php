@@ -14,7 +14,7 @@ class SendSMSController extends Controller
         $client = new \Nexmo\Client($basic);
 
         $message = $client->message()->send([
-            'to' => '+8801620258274',
+            'to' => '+8801.........',
             'from' => 'Nexmo',
             'text' => 'A text message sent using the Nexmo SMS API'
         ]);
